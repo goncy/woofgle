@@ -1,0 +1,14 @@
+{
+  "name": "woofgle",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "start": "lerna run start --parallel --stream",
+    "open": "cd ./packages/client && npx cypress open",
+    "run": "cd ./packages/client && npx cypress run"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
